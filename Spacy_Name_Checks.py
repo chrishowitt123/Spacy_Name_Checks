@@ -13,7 +13,6 @@ nlp = spacy.load("en_core_web_lg")
 # define documents
 source = r"C:\Users\chris\Documents\Transgola\Clients\PROJECTS\2021\old\393040521_TM_HS\Orignals\ORIGNAL_merge.docx"
 target = r"C:\Users\chris\Documents\Transgola\Clients\PROJECTS\2021\old\393040521_TM_HS\Translation\Perfectit\PERFECTIT_merge.docx"
-
     
 def find_persons_docx_spacy(source, target):
     
